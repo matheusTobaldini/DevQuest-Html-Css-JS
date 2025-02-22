@@ -7,7 +7,6 @@
     justify-content: center; 
     font-family: 'Roboto', sans-serif;
     font-weight: 400;    
-    
 }
 
 /* TEXTO DUVIDA */
@@ -45,11 +44,12 @@
     border: 1px solid #000000;
     border-radius: 5px;    
     font-size: 15px;   
-    margin-bottom: 15px;     
+    margin-bottom: 15px;
+    padding: 5px;
 }
 
 .formulario .inputForm:nth-last-child(4) {
-    height: 100px;
+    height: 100px;    
 }
 
 .formulario p {
