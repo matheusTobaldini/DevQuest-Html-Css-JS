@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Html + Css + JS</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <div class="duvida">
+            <h1 class="titulo">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+
+            <p class="text-duvida">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <form class="formulario">            
+            <input type="text" class="inputForm" name="nome" id="nomeCompleto" placeholder="Nome completo *">
+            <span class="campoObrigatorio">campo obrigatório</span>
+
+            <input type="email" class="inputForm" name="email" id="email" placeholder="Email *">
+            <span class="campoObrigatorio">campo obrigatório</span>
+            
+            <input type="tel" class="inputForm" name="telefone" id="telefone" placeholder="Telefone *">
+            <span class="campoObrigatorio">campo obrigatório</span>
+
+            <input type="text" class="inputForm" name="mensagemDuvida" id="mensagemDuvida" placeholder="Mensagem *" height="100px">
+            <span class="campoObrigatorio">campo obrigatório</span>
+            
+            <p>*campos obrigatórios</p>
+
+            <input type="button" value="Enviar" class="btn-enviar" class="btn-enviar" name="buttonEnviar" id="buttonEnviar">
+        </form>
+    </main>
+
+
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

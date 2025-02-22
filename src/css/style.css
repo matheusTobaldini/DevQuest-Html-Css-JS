@@ -1,0 +1,87 @@
+.container {
+    height: 100vh;  
+    background: url(../imagens/background.png);
+    background-size: contain;
+    display: flex;      
+    align-items: center; 
+    justify-content: center; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;    
+    
+}
+
+/* TEXTO DUVIDA */
+
+.duvida {
+    max-width: 300px;
+    margin-right: 70px;
+}
+
+.duvida .titulo {
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom: 11px;
+}
+
+.duvida .text-duvida {
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+/* FORMULARIO */
+
+.formulario {
+    width: 340px;
+    height: 378px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;          
+}
+
+.formulario .inputForm {
+    height: 35px;
+    border: 1px solid #000000;
+    border-radius: 5px;    
+    font-size: 15px;   
+    margin-bottom: 15px;     
+}
+
+.formulario .inputForm:nth-last-child(4) {
+    height: 100px;
+}
+
+.formulario p {
+    font-size: 15px;   
+    margin-bottom: 12px;   
+}
+
+.formulario .campoObrigatorio {
+    display: none;
+    font-size: 8px;
+    color: #F52E2E;
+}
+
+.formulario .btn-enviar {
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3CCC87;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* SEM PREENCHIMENTO */
+
+.formulario .campoObrigatorio.erro {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario .inputForm.vazio {
+    border: 1px solid #F52E2E;
+    margin-bottom: 0;
+}
