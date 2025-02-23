@@ -15,6 +15,7 @@ function verificarInput() {
 
         if (inputVazio) {
             item.classList.add('vazio');
+            item.classList.remove('preenchido')
             
         } else {
             item.classList.remove('vazio');
