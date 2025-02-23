@@ -85,3 +85,9 @@
     border: 1px solid #F52E2E;
     margin-bottom: 0;
 }
+
+/* PREENCHIDO */
+
+.formulario .inputForm.preenchido {
+    border-color: #3CCC87;
+}
